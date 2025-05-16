@@ -7,14 +7,14 @@ export default function Homeowners() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-900 to-yellow-600 py-12 px-4 sm:px-6 md:px-8">
+    <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-900 to-yellow-600 py-8 px-4 sm:px-6 md:px-8 overflow-hidden">
       {/* Blur/Glow خلف البطاقة */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      <div className="absolute inset-0 z-0 pointer-events-none hidden md:block">
         <div className="absolute left-1/3 top-1/4 w-96 h-96 bg-yellow-400 opacity-30 rounded-full blur-3xl" />
         <div className="absolute right-1/4 bottom-1/4 w-80 h-80 bg-gray-700 opacity-20 rounded-full blur-2xl" />
       </div>
       <div
-        className={`relative z-10 flex flex-col md:flex-row bg-gradient-to-br from-black/80 via-gray-900/80 to-yellow-500/20 backdrop-blur-md rounded-2xl overflow-hidden max-w-6xl w-full shadow-2xl border border-gray-800/40 ${
+        className={`relative z-10 flex flex-col md:flex-row bg-gradient-to-br from-black/80 via-gray-900/80 to-yellow-500/20 backdrop-blur-md rounded-xl md:rounded-2xl overflow-hidden max-w-6xl w-full shadow-xl md:shadow-2xl border border-gray-800/40 ${
           t('dir') === 'rtl' ? 'md:flex-row-reverse' : ''
         }`}
       >

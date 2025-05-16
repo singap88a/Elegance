@@ -121,27 +121,33 @@ function Navbar() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center mb-8">
-              <div className="text-2xl font-bold text-[#facc15]">LOGO</div>
-              <button
-                onClick={toggleMenu}
-                className="text-[#facc15] focus:outline-none hover:text-white transition-colors duration-300"
-              >
-                <FaTimes size={28} />
-              </button>
+              <div className="">
+                <Image src={logo} alt="Logo" width={80} height={50} />
+              </div>
+              <div className="flex items-center justify-center gap-4">
+                <div className="flex justify-center   items-center">
+                  <div className="">
+                    <button
+                      onClick={toggleLanguage}
+                      className="flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-black px-6 py-2 rounded-full transition-all duration-300"
+                    >
+                      <FaGlobe size={18} />
+                      <span className="text-lg font-bold">
+                        {i18n.language === "en" ? "ع" : "E"}
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <button
+                  onClick={toggleMenu}
+                  className="text-[#facc15] focus:outline-none hover:text-white transition-colors duration-300"
+                >
+                  <FaTimes size={28} />
+                </button>
+              </div>
             </div>
 
             {/* Language Toggle in Mobile Menu */}
-            <div className="flex justify-center mb-8">
-              <button
-                onClick={toggleLanguage}
-                className="flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-black px-6 py-2 rounded-full transition-all duration-300"
-              >
-                <FaGlobe size={18} />
-                <span className="text-lg font-bold">
-                  {i18n.language === "en" ? "العربية" : "English"}
-                </span>
-              </button>
-            </div>
 
             <ul className="space-y-8 mb-8">
               {links.map((link, id) => (

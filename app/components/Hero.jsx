@@ -98,6 +98,7 @@ function Hero() {
                 <img
                   src="https://raya.smartbrand-dev.com/images-home/image3.png"
                   alt=""
+                  className="     "
                 />
               </div>
             ))}

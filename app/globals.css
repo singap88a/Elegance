@@ -38,9 +38,7 @@ html{
     display: block;
   }
   
-  .flex {
-    justify-content: center;
-  }
+ 
   
   .grid {
     place-items: center;
