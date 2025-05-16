@@ -18,16 +18,16 @@ const roboto_mono = Roboto_Mono({
 
 export const metadata = {
   title: {
-    default: "Raya Home DESIGN & CONSTRUCTION",
-    template: "%s | Raya Home DESIGN & CONSTRUCTION"
+    default: "Elegance",
+    template: "%s | Elegance"
   },
   description: {
-    default: "شركة رايا هوم للتصميم والبناء - شريكك الموثوق في تشطيب وتصميم الشقق | Raya Home - Your Trusted Partner in Design and Construction",
-    template: "%s | رايا هوم - التصميم والبناء"
+    default: "شركة Elegance للتصميم والبناء - شريكك الموثوق في تشطيب وتصميم الشقق | Elegance - Your Trusted Partner in Design and Construction",
+    template: "%s | Elegance - التصميم والبناء"
   },
-  // icons: {
-  //   icon: "/logo.png",
-  // },
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

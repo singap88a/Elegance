@@ -1,18 +1,22 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import {
   FaFacebookF,
   FaInstagram,
   FaXTwitter,
   FaYoutube,
   FaLinkedinIn,
+  FaChevronDown,
+  FaChevronUp,
 } from "react-icons/fa6";
 import logo from "../../public/logo.png";
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const [isPagesOpen, setIsPagesOpen] = useState(false);
+  const [isToolsOpen, setIsToolsOpen] = useState(false);
 
   // Navigation links
   const pages = [
@@ -41,18 +45,16 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white pt-12 pb-4">
       <div className="container mx-auto px-4">
         {/* Main columns */}
-        <div className={`flex flex-col md:flex-row justify-between items-start gap-10 md:gap-0 ${
+        <div className={`flex flex-col md:flex-row justify-between items-center md:items-start gap-10 md:gap-0 ${
           t('dir') === 'rtl' ? 'md:flex-row-reverse' : ''
         }`}>
           {/* Logo and description */}
           <div className="flex-1 flex flex-col items-center md:items-start mb-8 md:mb-0">
-            <h1 className="text-[30px] font-bold">logo</h1>
-            {/* <div className="border-2 border-yellow-400 rounded-2xl px-6 py-2 mb-4 text-center">
-              <div className="font-bold text-xl">{t('footer.brand_name')}</div>
-              <div className="text-yellow-400 font-semibold text-lg">
-                {t('footer.brand_tagline')}
-              </div>
-            </div> */}
+              <Image src={logo} alt="" 
+              width={100}
+              height={100}
+              className="mx-auto md:mx-0"
+             />
             <p className="text-gray-300 max-w-xs text-center md:text-left mb-4">
               {t('footer.description')}
             </p>
@@ -71,13 +73,19 @@ const Footer = () => {
           </div>
           
           {/* Site pages */}
-          <div className="flex-1 flex flex-col items-center md:items-start mb-8 md:mb-0">
-            <div className="font-bold text-yellow-400 text-xl mb-2">
+          <div className="flex-1 flex flex-col items-center md:items-start mb-8 md:mb-0 w-full md:w-auto">
+            <button 
+              onClick={() => setIsPagesOpen(!isPagesOpen)}
+              className="flex items-center justify-between w-full md:w-auto font-bold text-yellow-400 text-xl mb-2"
+            >
               {t('footer.pages_title')}
-            </div>
-            <ul className="space-y-2">
+              <span className="md:hidden ml-2">
+                {isPagesOpen ? <FaChevronUp /> : <FaChevronDown />}
+              </span>
+            </button>
+            <ul className={`space-y-2 w-full md:w-auto ${isPagesOpen ? 'block' : 'hidden md:block'}`}>
               {pages.map((link, idx) => (
-                <li key={idx}>
+                <li key={idx} className="text-center md:text-left">
                   <a href={link.href} className="hover:text-yellow-400 transition-colors text-lg">
                     {link.text}
                   </a>
@@ -87,13 +95,19 @@ const Footer = () => {
           </div>
           
           {/* Tool pages */}
-          <div className="flex-1 flex flex-col items-center md:items-start mb-8 md:mb-0">
-            <div className="font-bold text-yellow-400 text-xl mb-2">
+          <div className="flex-1 flex flex-col items-center md:items-start mb-8 md:mb-0 w-full md:w-auto">
+            <button 
+              onClick={() => setIsToolsOpen(!isToolsOpen)}
+              className="flex items-center justify-between w-full md:w-auto font-bold text-yellow-400 text-xl mb-2"
+            >
               {t('footer.tools_title')}
-            </div>
-            <ul className="space-y-2">
+              <span className="md:hidden ml-2">
+                {isToolsOpen ? <FaChevronUp /> : <FaChevronDown />}
+              </span>
+            </button>
+            <ul className={`space-y-2 w-full md:w-auto ${isToolsOpen ? 'block' : 'hidden md:block'}`}>
               {toolPages.map((link, idx) => (
-                <li key={idx}>
+                <li key={idx} className="text-center md:text-left">
                   <a href={link.href} className="hover:text-yellow-400 transition-colors text-lg">
                     {link.text}
                   </a>
@@ -104,7 +118,7 @@ const Footer = () => {
           
           {/* Subscription */}
           <div className="flex-1 flex flex-col items-center md:items-start">
-            <div className="font-bold text-yellow-400 text-xl mb-2">
+            <div className="font-bold text-yellow-400 text-xl mb-2 text-center md:text-left">
               {t('footer.subscribe_title')}
             </div>
             <form className={`flex w-full max-w-xs rounded-full overflow-hidden border-2 border-yellow-400 bg-[#090c12] ${
@@ -132,12 +146,12 @@ const Footer = () => {
         <div className={`flex flex-col md:flex-row justify-between items-center text-gray-300 text-lg gap-6 ${
           t('dir') === 'rtl' ? 'md:flex-row-reverse' : ''
         }`}>
-          <div className={t('dir') === 'rtl' ? 'text-right' : 'text-left'}>
+          <div className={`text-center md:${t('dir') === 'rtl' ? 'text-right' : 'text-left'}`}>
             <span className="font-bold text-yellow-400">{t('footer.contact_title')}</span><br />
             <span className="text-base">{t('footer.phone_number')}</span>
           </div>
           <div className="text-center text-base">{t('footer.copyright')}</div>
-          <div className={t('dir') === 'rtl' ? 'text-right' : 'text-left'}>
+          <div className={`text-center md:${t('dir') === 'rtl' ? 'text-right' : 'text-left'}`}>
             <span className="font-bold text-yellow-400">{t('footer.address_title')}</span><br />
             <span className="text-base">{t('footer.address')}</span>
           </div>

@@ -13,24 +13,41 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
- }
+}
 
- .bg_color{
+.bg_color{
   background: linear-gradient(to right, #0B96A6, #0F5FA6);
+}
 
- }
+html{
+  scroll-behavior: smooth;
+}
 
-
- html{
- 
-   scroll-behavior: smooth;
- }
- *{
+*{
   font-family: MadaniArabic-SemiBold;
- }
+}
 
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
+  
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .flex {
+    justify-content: center;
+  }
+  
+  .grid {
+    place-items: center;
+  }
+}
 
- /* globals.css */
+/* globals.css */
 :root {
   --direction: ltr;
 }
@@ -38,7 +55,5 @@ body {
 [dir="rtl"] {
   --direction: rtl;
 }
-
- 
 
 /* Add any other RTL-specific styles here */

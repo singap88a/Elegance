@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-
+import ProblemSolution_1 from "../../public/home/ProblemSolution_1.jpg";
+import ProblemSolution_2 from "../../public/home/ProblemSolution_2.jpg";
+import ProblemSolution_3 from "../../public/home/ProblemSolution_3.jpg";
+import ProblemSolution_4 from "../../public/home/ProblemSolution_4.webp";
 const ProblemSolution = () => {
   const { t } = useTranslation();
 
@@ -11,8 +14,8 @@ const ProblemSolution = () => {
         {/* Problem Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=1000"
+            <Image
+              src={ProblemSolution_1}
               alt={t("problem_solution.problem_image_alt1")}
               className="rounded-lg object-cover w-full h-[400px]"
             />
@@ -30,8 +33,8 @@ const ProblemSolution = () => {
               {t("problem_solution.problem_description")}
             </p>
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1000"
+            <Image
+                src={ProblemSolution_2}
                 alt={t("problem_solution.problem_image_alt2")}
                 className="rounded-lg object-cover w-full h-[300px]"
               />
@@ -53,8 +56,8 @@ const ProblemSolution = () => {
               {t("problem_solution.solution_description")}
             </p>
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000"
+            <Image
+                src={ProblemSolution_3}
                 alt={t("problem_solution.solution_image_alt1")}
                 className="rounded-lg object-cover w-full h-[300px]"
               />
@@ -62,8 +65,8 @@ const ProblemSolution = () => {
           </div>
 
           <div>
-            <img
-              src="http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1600607687939-ce8a6c25118c%3Fq%3D80%26w%3D2400%26auto%3Dformat%26fit%3Dcrop&w=750&q=75"
+            <Image
+                src={ProblemSolution_4}
               alt={t("problem_solution.solution_image_alt2")}
               className="rounded-lg object-cover w-full h-[400px]"
             />

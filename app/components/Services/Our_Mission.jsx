@@ -2,16 +2,22 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-
-const Our_Mission = () => {
+import Team_Members_1 from "../../../public/Mission/Team_Members_1.webp";
+import Team_Members_2 from "../../../public/Mission/Team_Members_2.webp";
+import Team_Members_3 from "../../../public/Mission/Team_Members_3.webp";
+import Team_Members_4 from "../../../public/Mission/Team_Members_4.webp";
+import Team_Members_5 from "../../../public/Mission/Team_Members_5.webp";
+import Our_Mission_1 from "../../../public/Mission/Our_Mission_1.webp";
+import Our_Mission_2 from "../../../public/Mission/Our_Mission_2.webp";
+ const Our_Mission = () => {
   const { t } = useTranslation();
 
   const teamMembers = [
-    "https://randomuser.me/api/portraits/men/32.jpg",
-    "https://randomuser.me/api/portraits/women/44.jpg",
-    "https://randomuser.me/api/portraits/men/45.jpg",
-    "https://randomuser.me/api/portraits/women/46.jpg",
-    "https://randomuser.me/api/portraits/men/47.jpg",
+    Team_Members_1,
+    Team_Members_2,
+    Team_Members_3,
+    Team_Members_4,
+    Team_Members_5,
   ];
 
   const features = [
@@ -32,7 +38,7 @@ const Our_Mission = () => {
         <div className="flex-1 flex flex-col gap-8 items-center md:items-start">
           {/* Team Image */}
           <Image
-            src="https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg"
+            src={Our_Mission_1}
             alt={t('mission.team_image_alt')}
             width={256}
             height={288}
@@ -94,7 +100,7 @@ const Our_Mission = () => {
           </div>
           {/* Office Image */}
           <Image
-            src="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
+            src={Our_Mission_2}
             alt={t('mission.office_image_alt')}
             width={256}
             height={192}

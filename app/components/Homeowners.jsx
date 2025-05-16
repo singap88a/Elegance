@@ -2,7 +2,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
-
+import Homeowners_1 from "../../public/home/Homeowners.webp"
 export default function Homeowners() {
   const { t } = useTranslation();
 
@@ -21,7 +21,7 @@ export default function Homeowners() {
         {/* Image Section */}
         <div className="w-full md:w-1/2 min-h-[350px]">
           <Image
-            src="https://raya.smartbrand-dev.com/contentss/aboutUs2.png"
+            src={Homeowners_1}
             alt={t('homeowners.image_alt')}
             width={800}
             height={600}

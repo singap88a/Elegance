@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGlobe } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import logo from "../../public/logo.png";
+import logo from "../../public/logo.png"; // Adjust the path to your logo image
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,8 +40,8 @@ function Navbar() {
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between py-4 gap-4">
           <div className="text-xl font-bold text-[#facc15]">
-            {/* <Image src={logo} alt="Logo" width={100} height={50} /> */}
-            <span className="text-2xl font-extrabold">LOGO</span>
+            <Image src={logo} alt="Logo" width={80} height={50} />
+            {/* <span className="text-2xl font-extrabold">LOGO</span> */}
           </div>
 
           <div className="flex items-center gap-4">
@@ -100,7 +100,7 @@ function Navbar() {
           <div className="hidden md:flex">
             <Link
               href="/pages/contact"
-              className="rounded-full px-6 py-2 border-2 border-[#facc15] bg-yellow-500 text-white hover:bg-transparent hover:text-[#facc15] transition-all duration-300 font-bold shadow-lg shadow-[#facc15]/20"
+              className="rounded-full px-6 py-2 border-2 border-[#facc15] bg-transparent text-[#facc15] hover:bg-[#facc15] hover:text-white transition-all duration-300 font-bold shadow-lg shadow-[#facc15]/20"
             >
               {t("navbar.contact")}
             </Link>
@@ -164,7 +164,7 @@ function Navbar() {
             <div className="mt-8">
               <Link
                 href="/pages/contact"
-                className="block text-center rounded-full px-6 py-3 border-2 border-[#facc15] bg-[#facc15] text-white hover:bg-transparent hover:text-[#facc15] transition-all duration-300 font-bold shadow-lg shadow-[#facc15]/30"
+                className="block text-center rounded-full px-6 py-3 border-2 border-[#facc15] bg-transparent text-[#facc15] hover:bg-[#facc15] hover:text-white transition-all duration-300 font-bold shadow-lg shadow-[#facc15]/30"
                 onClick={toggleMenu}
               >
                 {t("navbar.contact")}

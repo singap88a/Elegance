@@ -2,6 +2,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import about from "../../public/home/about.webp";
 
 export default function AboutUs() {
   const { t } = useTranslation();
@@ -48,7 +49,7 @@ export default function AboutUs() {
         <div className="flex items-center justify-center relative group">
           <div className=" "></div>
           <Image
-            src="https://raya.smartbrand-dev.com/ProblemSolutionSection/1111111.png"
+            src={about}
             alt={t("about_us.image_alt")}
             width={600}
             height={500}

@@ -3,6 +3,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import hero from "../../public/hero.png";
+import Scotch_Brace_3 from "../../public/home/Scotch_Brace_3.webp";
+
+import Scotch_Brace_4 from "../../public/home/about.webp";
 export default function ScotchBrace() {
   const { t } = useTranslation();
 
@@ -49,7 +52,7 @@ export default function ScotchBrace() {
           className="w-full lg:w-auto"
         >
           <Image
-            src="https://raya.smartbrand-dev.com/ProblemSolutionSection/1111111.png"
+            src={Scotch_Brace_4 }
             alt={t("scotchBrace.images.vase")}
             width={250}
             height={160}
@@ -83,7 +86,7 @@ export default function ScotchBrace() {
           className="w-full lg:w-auto lg:flex-1"
         >
           <Image
-            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1000"
+            src={Scotch_Brace_3}
             alt={t("scotchBrace.images.dining2")}
             width={420}
             height={220}
