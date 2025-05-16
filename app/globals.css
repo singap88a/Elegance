@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Tajawal', sans-serif;
+  direction: var(--direction);
+  /* text-align: var(--direction)  'rtl' ? right : left; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
+ .bg_color{
+  background: linear-gradient(to right, #0B96A6, #0F5FA6);
+
+ }
+
+
+ html{
+ 
+   scroll-behavior: smooth;
+ }
+ *{
+  font-family: MadaniArabic-SemiBold;
+ }
+
+
+ /* globals.css */
+:root {
+  --direction: ltr;
+}
+
+[dir="rtl"] {
+  --direction: rtl;
+}
+
+ 
+
+/* Add any other RTL-specific styles here */

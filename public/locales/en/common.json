@@ -1,0 +1,305 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "goals": "Our Services",
+    "courses": "Our Work",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title_part1": "Your smart",
+    "title_highlight1": "choice",
+    "title_part2": "for your professional",
+    "title_highlight2": "future",
+    "description": "All the courses you need to start your professional path in one platform at your fingertips. All the courses you need to start your professional path in one platform at your fingertips. All the courses you need to start your professional path in one platform at your fingertips.",
+    "explore": "Explore Courses",
+     
+  "explore_button": "Explore Courses",
+  "contact_button": "Contact Us"
+ 
+  },
+ 
+  "footer": {
+    "logo_alt": "Website logo",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "goals": "Our Goals",
+      "courses": "Training Courses",
+      "contact": "Contact Us"
+    },
+    "copyright": "© 2025 All Rights Reserved to Business Solutions Training Center"
+  },
+ 
+  "scotchBrace": {
+    "title": "Scotch Brace",
+    "subtitle": "ROBOTO",
+    "description1": "For this project, we chose Scotch Brace as the accent font to convey elegance and sophistication, reflecting the studio's focus on personalized and innovative interior design.",
+    "description2": "Roboto was selected for the main text due to its clean, modern look and excellent readability, aligning with the studio's dedication to creating functional and stylish spaces.",
+    "description3": "Together, these fonts balance a refined aesthetic with clarity, perfectly representing the studio's blend of creativity and professionalism.",
+    "images": {
+      "dining": "Dining room",
+      "vase": "Decorative vase",
+      "dining2": "Modern dining"
+    }
+  },
+  "problem_solution": {
+  "problem_title": "Problem:",
+  "problem_description": "The existing landing page failed to effectively showcase the studio's distinctive design approach and extensive experience. It lacked visual appeal and clarity, making it difficult to communicate their personalized service and engage potential clients. This resulted in a less impactful online presence that didn't align with the studio's brand or attract the right audience.",
+  "problem_image_alt1": "Problem illustration 1",
+  "problem_image_alt2": "Problem illustration 2",
+  "solution_title": "Solution:",
+  "solution_description": "The new landing page addresses these issues by prominently featuring the studio's 20+ years of experience and 600+ completed projects. The design combines modern trends with personalized elements to reflect their unique style. Enhanced visuals and focused messaging now clearly communicate the studio's dedication to custom, client-centric interiors, significantly improving their online presence and client engagement.",
+  "solution_image_alt1": "Solution illustration 1",
+  "solution_image_alt2": "Solution illustration 2"
+},
+"about_us": {
+  "title": "About Us",
+  "description1": "At our interior design studio, we create beautiful designs that inspire and truly reflect by blending modern trends with personalized and innovative concepts. We deliver exceptional designs that reflect each client's unique style and personality, ensuring every project fully captures their vision and needs.",
+  "years_experience": "years of work",
+  "projects_completed": "accomplished projects",
+  "description2": "We believe that interior design is an art in which every detail is important. Our team of professionals work with meticulous attention to every nuance, ensuring smooth combination of functionality and aesthetics. Every project becomes a reflection of the client's inner personality, resulting in an environment aligned with your unique tastes and lifestyle.",
+  "image_alt": "Interior Design"
+},
+
+"gallery": {
+  "description": "Our gallery showcases the finest examples of our design work, demonstrating our commitment to excellence and attention to detail in every project we undertake.",
+  "image_alt": "Gallery image {{number}}"
+},
+"homeowners": {
+  "title": "For Homeowners",
+  "description": "You can find everything you need for your renovation or decorating project on Raya Home: Get inspired, find home professionals and discover products to complete your projects.",
+  "button_text": "Get Started",
+  "image_alt": "For Homeowners illustration"
+},
+"latest_work": {
+  "title": "Our Latest Projects",
+  "button_text": "Join Our Satisfied Clients",
+  "items": [
+    {
+      "title": "Apartment Design & Finishing",
+      "description": "Premium interior design and luxury finishing for residential apartments with modern global decor"
+    },
+    {
+      "title": "Kitchen Fitting",
+      "description": "Design and implementation of modern kitchens using high-quality materials and latest technologies"
+    },
+    {
+      "title": "Bathroom Finishing",
+      "description": "Execution of luxurious bathrooms with elegant design touches and moisture-resistant materials"
+    },
+    {
+      "title": "Painting & Decoration",
+      "description": "Implementation of painting and gypsum decorations with modern colors and designs"
+    }
+  ]
+},
+"footer": {
+  "brand_name": "Raya Home",
+  "brand_tagline": "DESIGN & CONSTRUCTION",
+  "description": "We are a team of strategic creators and digital innovators, united in our focus on pursuing excellence and enjoying the process.",
+  "pages_title": "Pages",
+  "pages": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Our Services",
+    "work": "Our Work",
+    "contact": "Contact Us"
+  },
+  "tools_title": "Tool Pages",
+  "tools": {
+    "pricing": "Pricing",
+    "privacy": "Privacy"
+  },
+  "subscribe_title": "Subscribe With Us",
+  "subscribe_button": "Subscribe",
+  "email_placeholder": "Enter your email",
+  "contact_title": "Contact Us",
+  "phone_number": "+20 12 457 4578",
+  "copyright": "© 2025 All Rights Reserved",
+  "address_title": "Address",
+  "address": "119 Tanglewood Lane Gulfport, MS 39503",
+  "social_icons": "Social media links"
+},
+"about_hero": {
+  "title": "Welcome to Raya Home",
+  "description": "We provide the best experience for home building, renovation and design, connecting homeowners and home professionals with outstanding resources and vendors."
+},
+"banner": {
+  "image_alt": "About Raya Home",
+  "title": "Raya Home started with a house.",
+  "paragraph1": "When founders Adi Tatarko and Alon Cohen found themselves in the midst of a frustrating renovation experience for their own home, they knew there had to be a better way.",
+  "paragraph2": "So they built Raya Home. What started as a side project has now grown to a community of more than 70 million homeowners and home design enthusiasts, and over 3 million building, remodeling and design professionals around the world.",
+  "paragraph3": "As the leading platform for home remodeling and design, Raya Home provides the only all-in-one project management and design solution for industry professionals and tools for homeowners to update their homes from start to finish. Our mission has been the same since day one to provide the best experience for home renovation and design, connecting homeowners and home professionals with the best tools, resources and vendors."
+},
+"testimonials": [
+  {
+    "name": "Eng. Ahmed Hamdy",
+    "title": "Company Founder",
+    "description": "We always try to maintain the balance between what the client wants and the default standards for design and development."
+  },
+  {
+    "name": "Eng. Sherif",
+    "title": "Company Founder",
+    "description": "We always focus on designing and developing your work to keep pace with the rapid development in the technical world."
+  },
+  {
+    "name": "Eng. Ahmed Hamdy",
+    "title": "Company Founder",
+    "description": "At our company, we all work as one family where we try hard to complete your work as if it were our own."
+  }
+],
+"enough_section": {
+  "title": "Enough talk, let's get to work",
+  "button_text": "Contact Us Now"
+},
+"mission": {
+  "subtitle": "Our Mission",
+  "title": "We Develop, Improve, Share and Advance",
+  "description": "At our company, we provide you with the best and fastest technical solutions in various advertising and technological fields. Relax and hand over your projects to us, and we will take them to the next level.",
+  "team_title": "Team Members",
+  "team_image_alt": "Our team working together",
+  "member_alt": "Team member",
+  "office_image_alt": "Our office workspace",
+  "clients": "Trusted Clients",
+  "projects": "Completed Projects",
+  "features": [
+    "High Precision Services",
+    "Attention to Finest Details",
+    "Understanding All Ideas",
+    "Continuous Client Communication",
+    "Fast and Accurate Execution",
+    "Comprehensive Services"
+  ]
+},
+"services_section": {
+  "title": "Luxury Interior Design & Finishing Services",
+  "services": [
+    {
+      "title": "Interior Design",
+      "desc": "We provide innovative design solutions tailored to your unique taste, transforming your apartment into a luxurious living space while maintaining practical functionality."
+    },
+    {
+      "title": "Interior Finishing",
+      "desc": "Precision finishing with premium materials from floors to ceilings, with meticulous attention to detail that guarantees stunning and long-lasting results."
+    },
+    {
+      "title": "Kitchen Fitting",
+      "desc": "Design and implementation of modern kitchens using high-quality materials that combine aesthetics with functional efficiency for an exceptional cooking experience."
+    },
+    {
+      "title": "Bathroom Finishing",
+      "desc": "Transform your bathrooms into luxurious spa-like spaces using the latest moisture-resistant materials and innovative lighting designs."
+    },
+    {
+      "title": "Painting Works",
+      "desc": "Professional painting services with modern colors and advanced techniques that ensure elegant, long-lasting finishes with complete surface protection."
+    },
+    {
+      "title": "Gypsum Decorations",
+      "desc": "Design and execution of premium gypsum decorations for ceilings and walls that add luxurious touches and enhance space value."
+    }
+  ]
+},
+"contact": {
+  "title": "Contact Us",
+  "subtitle": "We're here to help. Reach out to us for any inquiries or questions.",
+  "form_title": "Send Us a Message",
+  "phone_title": "Phone",
+  "email_title": "Email",
+  "location_title": "Location",
+  "address": "123 Street, City, Country",
+  "map_title": "Our Location on Map",
+  "name_label": "Name",
+  "name_placeholder": "Enter your name",
+  "phone_label": "Phone Number",
+  "phone_placeholder": "Enter your phone number",
+  "email_label": "Email Address",
+  "email_placeholder": "Enter your email",
+  "message_label": "Message",
+  "message_placeholder": "Type your message here...",
+  "submit_button": "GET CONSULTATION"
+},
+"work": {
+  "title": "Our Design Projects",
+  "project_description": "Project Overview",
+  "features": "Design Features",
+  "technologies": "Materials & Techniques",
+  "project_link": "View Project",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Luxury Apartment Renovation",
+      "description": "Complete interior redesign and finishing for high-end residence",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": "Full transformation of a 250m² apartment including custom furniture design, premium finishing materials, and smart home integration",
+      "url": "#",
+      "technologies": [
+        "Italian marble",
+        "Custom woodwork",
+        "Smart lighting",
+        "Acoustic panels",
+        "Premium paints",
+        "3D visualization"
+      ],
+      "features": [
+        "Open-concept living space",
+        "Custom kitchen cabinetry",
+        "Spa-inspired bathrooms",
+        "Hidden storage solutions",
+        "Integrated smart home system",
+        "Luxury flooring throughout"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Modern Penthouse Design",
+      "description": "Contemporary design for a luxury penthouse with panoramic views",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": "360m² penthouse transformation featuring floor-to-ceiling windows, minimalist design, and premium finishes",
+      "url": "#",
+      "technologies": [
+        "Porcelain slabs",
+        "Glass partitions",
+        "Custom metalwork",
+        "Underfloor heating",
+        "Home automation",
+        "Acoustic ceilings"
+      ],
+      "features": [
+        "Seamless indoor-outdoor flow",
+        "Custom-designed furniture",
+        "Premium kitchen appliances",
+        "Walk-in wardrobe systems",
+        "Smart climate control",
+        "Panoramic terrace design"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Boutique Apartment Finishing",
+      "description": "High-end finishing for boutique development units",
+      "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "details": "Complete interior finishing package for 12 boutique apartments with customized material selections",
+      "url": "#",
+      "technologies": [
+        "Engineered hardwood",
+        "Handmade tiles",
+        "Custom millwork",
+        "Waterproof membranes",
+        "LED lighting systems",
+        "Eco-friendly paints"
+      ],
+      "features": [
+        "Signature color palettes",
+        "Bespoke bathroom designs",
+        "Integrated kitchen solutions",
+        "Soundproofing treatments",
+        "Smart home ready",
+        "Premium hardware finishes"
+      ]
+    }
+  ]
+}
+}
+ 
