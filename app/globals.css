@@ -3,11 +3,9 @@
 @tailwind utilities;
 
 body {
-  direction: rtl;
-  text-align: right;
+  direction: ltr;
+  text-align: left;
   font-family: 'Tajawal', sans-serif;
-  direction: var(--direction);
-  /* text-align: var(--direction)  'rtl' ? right : left; */
 }
 
 .container {
@@ -38,8 +36,6 @@ html{
     display: block;
   }
   
- 
-  
   .grid {
     place-items: center;
   }
@@ -48,10 +44,6 @@ html{
 /* globals.css */
 :root {
   --direction: ltr;
-}
-
-[dir="rtl"] {
-  --direction: rtl;
 }
 
 /* Add any other RTL-specific styles here */

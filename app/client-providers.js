@@ -22,9 +22,10 @@ export function ClientProviders({ children }) {
     
     const handleLanguageChanged = (lng) => {
       const newDir = lng === 'ar' ? 'rtl' : 'ltr';
-      document.documentElement.dir = newDir;
+      // Keep main content in LTR direction
+      document.documentElement.dir = 'ltr';
       document.documentElement.lang = lng;
-      setDir(newDir);
+      setDir('ltr');
       setLang(lng);
     };
     
