@@ -20,11 +20,11 @@ const Footer = () => {
 
   // Navigation links
   const pages = [
-    { text: t('footer.pages.home'), href: "#" },
-    { text: t('footer.pages.about'), href: "#" },
-    { text: t('footer.pages.services'), href: "#" },
-    { text: t('footer.pages.work'), href: "#" },
-    { text: t('footer.pages.contact'), href: "#" },
+    { text: t('footer.pages.home'), href: "/" },
+    { text: t('footer.pages.about'), href: "/pages/about"},
+    { text: t('footer.pages.services'), href: "/pages/services" },
+    { text: t('footer.pages.work'), href: "/pages/ourWork"},
+    { text: t('footer.pages.contact'), href: "/pages/contact" },
   ];
   
   // Tool pages
